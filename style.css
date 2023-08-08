@@ -5,3 +5,36 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: fit-content;
+    width: 100%;
+    background-color: #ffc7ff;
+    border: 1px solid #241b35;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+span {
+    color: #373737;
+}
+
+span::before {
+    content: "";
+    position: absolute;
+    animation: blink 0.7s infinite;
+}
